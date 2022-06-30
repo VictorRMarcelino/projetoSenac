@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+    background-color: #002b2b;
+}
+
+.tituloFormulario{
+    margin-left: 15px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.areaFormulario{
+    background-color: #00262b;
+    width:500px;
+    height: 450px;
+    position: absolute;
+	left: 50%;
+	top: calc(50% - 280px);
+    margin-left: -225px;
+    border-style: solid;
+    text-align: center;
+}
+
+.camposFormulario {
+    position: relative;
+    top: -27px;
+    width: 275px;
+    margin-left: 5px;
+    height: 28px;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: lightgray;
+    font-size: 14px;
+    border-radius: 10px 20px 20px 10px;
+}
+
+.camposFormulario:focus {
+    background-color: #fff;
+    border-style: solid;
+    border-color: black;
+    font-size: 16px;
+}
+
+.iconesFormulario {
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 11%;
+    color: #fff;
+    text-align: left;
+}
+.BotaoEnviar input{
+    position: absolute;
+    left: 175px;
+    top: 390px;
+    background-color: #4A79B9;
+    width: 150px;
+    height: 32px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border: 2px solid #4A79B9;
+}
+.tipoReclamacao{
+    position: relative;
+    top: -28px;
+    width: 325px;
+    margin-left: 35px;
+    height: 28px;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: lightgray;
+    font-size: 14px;
+    border-radius: 10px 20px 20px 10px;
+}
+.tipoReclamacao:focus{
+    background-color: #fff;
+    border-style: solid;
+    border-color: black;
+    font-size: 17px;
+}
+
+.areaObservacoes{
+    position: relative;
+    top: -28px;
+    width: 325px;
+    margin-left: 35px;
+    height: 58px;
+    background-color: lightgray;
+    font-size: 14px;
+}
+.areaObservacoes:focus{
+    background-color: #fff;
+    border-style: solid;
+    border-color: black;
+    font-size: 17px;
+}
+
+.textoMotivo{
+    position: relative;
+    left: -165px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.rodape {
+    position: absolute;
+    width: 100vw;
+    height: 70px;
+    background-color: #00262b;
+    top: 800px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rodape a {
+    margin-right: 120px;
+    padding-left: 120px;
+    color: grey;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    text-decoration: underline overline 2px dotted;
+    text-decoration-color: black;
+}
+
+.logo img {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 250px;
+    left: 155px;
+}
+
+.textoCanto{
+    position: absolute;
+    color: #fff;
+    left: 1350px;
+    margin-top: 445px;
+    font-size: 30px;
+    font-family: "Cursive", Lucida Handwriting;
+  }
+

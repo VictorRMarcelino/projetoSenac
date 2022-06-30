@@ -1,0 +1,47 @@
+
+.dataHoraPublicacao{
+    position: relative;
+    left: 33%;
+    top: -12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: grey;
+    gap: 15px;
+}
+
+/*ABAIXO E SO BKP
+.dataHoraPublicacao-pagina-inicial{
+    position: relative;
+    left: 33%;
+    top: -12px;
+    max-width: 95px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: grey;
+    gap: 15px;
+}
+
+.dataHoraPublicacao-pesquisar-usuario{
+    position: relative;
+    left: 22%;
+    top: -11px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: grey;
+    gap: 15px;
+}
+
+.dataHoraPublicacao-profile{
+    position: relative;
+    left: 25%;
+    top: -12px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: grey;
+    gap: 5px;
+}
+ */

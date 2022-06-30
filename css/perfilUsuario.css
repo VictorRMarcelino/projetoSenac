@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: auto;
+    background-color: #002b2b;
+}
+.bannerUsuario {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    width: 95vw;
+    height: 70px;
+    background: #005757;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 2px solid black;
+    padding-left: 150px;
+    gap: 290px;
+}
+.nomeUsuario{
+    color: white;
+    font-size: 60px;
+}
+.publicacoes {
+    position: fixed;
+    max-height: 72%;
+    height: 72%;
+    left: 65%;
+    width: 640px;
+    background: #002b2b;
+    border-style: solid;
+    padding-left: 55px;
+    top: 270px;
+    border-radius: 20px 20px 20px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.tPublic{
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    left: calc(50% - 60px);
+}
+.areaPublicacao {
+    background-color: #00262b;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    border-style: solid;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+.usuario_publicacao a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration-color: #fff;
+}
+.iconesFormularioPublicacao{
+    position: relative;
+    left: 5%;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: #fff;
+    gap: 15px;
+}
+
+.conteudoPublicacao {
+    position: relative;
+    display: flex;    
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    padding: 15px;
+    font-size: 22px;
+    left: -200px;
+}
+.campoPublicacao{
+    position: relative;
+    top: -10px;
+    left: 43%;
+    background-color: transparent;
+    resize: none;
+    height: 100px;
+    width: 500px;
+    font-size: 16px;
+    border-radius: 20px, 20px, 20px, 20px;
+    border: none;
+}
+.campoPublicacao::placeholder{
+    color: #fff;
+}
+.areasobremim{
+    position: fixed;
+    width: 490px;
+    height: 290px;
+    border: 2px solid black;
+    left: 48px;
+    top: 28%;
+    background: #013838;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.textosobremim {
+    position: fixed;
+    width: 450px;
+    height: 210px;
+    border-style: none;
+    background-color: transparent;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    overflow-y: auto;
+    resize: none;
+    left: 68px;
+    top: 33%;
+    background-color: white;
+}
+.textosobremim::placeholder{
+    color: black;
+    font-size: 20px;
+}
+.textosobremim:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.filtros{
+    position: fixed;
+    width: 490px;
+    height: 245px;
+    border: 2px solid black;
+    left: 48px;
+    top: 37%;
+    background: #013838;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.areafiltro{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: fixed;
+    width: 490px;
+    height: 245px;
+    border: 2px solid black;
+    left: 48px;
+    top: 60%;
+    background: #013838;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 26px;
+}
+.filtro{
+    align-items: self-start;
+    height: 50%;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+.opcao{
+    flex-direction: column;
+    padding: 10px;
+}
+.botaofiltro{
+    height: 45px;
+    width: 95px;
+    position: relative;
+    font-family: "Times New Roman", Serif;
+    font-size: 22px;
+    background-color: #479797;
+    color: #fff;
+    cursor: pointer;
+    top: 67px;
+    left: 116px;
+}
+.numpublicacoes{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 40%;
+}
+.sexoUsuario{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: 40%;
+}

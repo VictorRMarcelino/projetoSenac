@@ -1,0 +1,24 @@
+.rodape {
+    position: absolute;
+    width: 100vw;
+    height: 70px;
+    background-color: #00262b;
+    top: 800px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.rodape a{
+    margin-right: 120px;
+    padding-left: 120px;
+    color: grey;
+    text-decoration: none;
+    transition: text-decoration 2s;
+}
+.rodape a:hover{
+    text-decoration: underline overline 2px dotted;
+    text-decoration-color: black;
+}

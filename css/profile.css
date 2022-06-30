@@ -1,0 +1,323 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+    background-color: #002b2b;
+}
+
+.bannerUsuario {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    width: 95vw;
+    height: 70px;
+    background: #005757;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 2px solid black;
+    padding-left: 150px;
+    gap: 90px;
+}
+.nomeUsuario{
+    color: white;
+    font-size: 60px;
+}
+.alterarInformacoes a{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 20%;
+    text-decoration-color: grey;
+}
+.numpublicacoes{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: calc(37% - 5px);
+}
+.sexoUsuario{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: calc(39% + 2px);
+}
+.areasobremim{
+    position: fixed;
+    width: 490px;
+    height: 290px;
+    border: 2px solid black;
+    left: 48px;
+    top: 28%;
+    background: #013838;
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.textosobremim {
+    position: fixed;
+    width: 450px;
+    height: 170px;
+    border-style: none;
+    background-color: transparent;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    overflow-y: auto;
+    resize: none;
+    left: 68px;
+    top: 33%;
+    background-color: white;
+    border-radius: 5px;
+}
+.textosobremim::placeholder{
+    color: black;
+    font-size: 20px;
+}
+.textosobremim:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+.editarSobreMim {
+    height: 45px;
+    width: 95px;
+    position: fixed;
+    font-family: "Times New Roman", Serif;
+    font-size: 22px;
+    background-color: #479797;
+    color: #fff;
+    cursor: pointer;
+    left: 16%;
+    top: 52%;
+}
+.salvarsobremim {
+    height: 45px;
+    width: 95px;
+    position: fixed;
+    font-family: "Times New Roman", Serif;
+    font-size: 22px;
+    background-color: #479797;
+    color: #fff;
+    cursor: pointer;
+    left: 22%;
+    top: 52%;
+    opacity: 0.5;
+}
+.filtros{
+    position: fixed;
+    width: 490px;
+    height: 245px;
+    border: 2px solid black;
+    left: 48px;
+    top: 37%;
+    background: #013838;
+    border-radius: 20px 20px 20px 20px;
+}
+.areafiltro{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: fixed;
+    width: 490px;
+    height: 245px;
+    border: 2px solid black;
+    left: 48px;
+    top: 60%;
+    background: #013838;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 26px;
+}
+.tFiltro{
+    position: relative;
+    left: -20px;
+}
+.filtro{
+    align-items: self-start;
+    height: 50%;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 430px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid black;
+}
+.opcao{
+    flex-direction: column;
+    padding: 10px;
+}
+.botaofiltro{
+    height: 45px;
+    width: 95px;
+    position: relative;
+    font-family: "Times New Roman", Serif;
+    font-size: 22px;
+    background-color: #479797;
+    color: #fff;
+    cursor: pointer;
+    top: 67px;
+    left: 116px;
+}
+.areaPublicar{
+    position: fixed;
+    width: 495px;
+    height: 245px;
+    border: 2px solid black;
+    left: 34%;
+    top: 28%;
+    background: #013838;
+}
+.textoPublicacao {
+    position: fixed;
+    width: 458px;
+    height: 165px;
+    border-style: solid;
+    background-color: #fff;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    overflow-y: auto;
+    resize: none;
+    left: 35%;
+    top: 29%;
+    color: black;
+    border-radius: 5px;
+}
+.botaoPublicar {
+    height: 45px;
+    width: 95px;
+    position: fixed;
+    font-family: "Times New Roman", Serif;
+    font-size: 22px;
+    background-color: #479797;
+    color: #fff;
+    cursor: pointer;
+    left: 54%;
+    top: 47%;
+}
+.textTipoPublicacao {
+    height: 45px;
+    width: 156px;
+    position: fixed;
+    left: 35%;
+    top: 48%;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    color: #fff;
+}
+.selectTipoPublicacao {
+    height: 45px;
+    width: 150px;
+    position: fixed;
+    left: 44%;
+    top: 47%;;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+}
+.publicacoesUser {
+    position: fixed;
+    max-height: 72%;
+    height: 72%;
+    left: 65%;
+    width: 640px;
+    background: #002b2b;
+    border-style: solid;
+    padding-left: 55px;
+    top: 270px;
+    border-radius: 20px 20px 20px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.titlePublicacoes{
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    left: calc(50% - 100px);
+}
+.sizePublicacoes{
+    position: relative;
+    color: black;
+    font-size: 20px;
+    height: 25px;
+    width: 20px;
+    left: calc(90% + 735px);
+    top: 50px;
+    border-radius: 5px;
+}
+.areaPublicacao {
+    background-color: #00262b;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    border-style: solid;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+.usuario_publicacao a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration-color: #fff;
+}
+.iconesFormularioPublicacao{
+    position: relative;
+    left: 5%;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: #fff;
+    gap: 15px;
+}
+
+.conteudoPublicacao {
+    position: relative;
+    display: flex;    
+    align-content: start;
+    justify-content: start;
+    align-items: start;
+    color:#fff;
+    padding: 15px;
+    font-size: 22px;
+    left: -1px;
+}
+.campoPublicacao{
+    position: relative;
+    top: -10px;
+    background-color: transparent;
+    resize: none;
+    height: 100px;
+    width: 500px;
+    font-size: 16px;
+    border-radius: 20px, 20px, 20px, 20px;
+    border: none;
+}
+.campoPublicacao::placeholder{
+    color: #fff;
+}
+.excluirPublicacao{
+    position: relative;
+    font-size: 18px;
+    font-family: "Times New Roman", Serif;
+    top: -5px;
+    left: 238px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.botaoexcluir{
+    font-size: 22px;
+    font-family: "Times New Roman", Serif;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    left: 35%;
+    background-color: #479797;
+}

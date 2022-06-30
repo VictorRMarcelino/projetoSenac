@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+    background-color: #002b2b;
+}
+.areaPublicar{
+    position: fixed;
+    width: 490px;
+    height: 245px;
+    border: 2px solid black;
+    left: 5%;
+    top: 25%;
+    background: #013838;
+    border-radius: 20px;
+}
+.textoPublicacao {
+    position: fixed;
+    width: 450px;
+    height: 165px;
+    border-style: solid;
+    background-color: #fff;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    overflow-y: auto;
+    resize: none;
+    left: 6%;
+    top: 26%;
+    color: black;
+    border-radius: 5px;
+}
+.textTipoPublicacao {
+    height: 45px;
+    width: 250px;
+    position: fixed;
+    left: 6%;
+    top: 46%;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    color: #fff;
+}
+.selectTipoPublicacao {
+    height: 45px;
+    width: 150px;
+    position: fixed;
+    left: 15%;
+    top: 44%;;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+}
+.botaoPublicar {
+    height: 45px;
+    width: 87px;
+    position: fixed;
+    font-family: "Times New Roman", Serif;
+    font-size: 22px;
+    background-color: #479797;
+    color: #fff;
+    cursor: pointer;
+    left: 25%;
+    top: 44%;
+}
+.publicacoesComunidade {
+    position: fixed;
+    left: calc(50% - 280px);
+    width: 620px;
+    max-height: 100%;
+    height: 100%;
+    background: #002b2b;
+    border-style: solid;
+    padding-left: 55px;
+    top: calc(10% - 28px);
+    border-radius: 20px 20px 20px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.tituloPublicacoes{
+    position: absolute;
+    color: #fff;
+    font-size: 32px;
+    left: calc(50% - 80px);
+}
+.areaPublicacao {
+    background-color: #00262b;
+    width: 500px;
+    left: 50%;
+    top: 50%;
+    border-style: solid;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+}
+.usuario_publicacao a{
+    position: relative;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:none;
+}
+.iconesFormularioPublicacao{
+    position: relative;
+    left: 5%;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    color: #fff;
+    gap: 15px;
+    max-width: 150px;
+}
+
+.conteudoPublicacao {
+    position: relative;
+    display: flex;    
+    align-content: start;
+    justify-content: start;
+    align-items: start;
+    color:#fff;
+    padding: 15px;
+    font-size: 22px;
+    left: -1px;
+}
+.campoPublicacao{
+    position: relative;
+    top: -10px;
+    background-color: transparent;
+    resize: none;
+    height: 100px;
+    width: 500px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.campoPublicacao::placeholder{
+    color: #fff;
+}
+.logo img {
+    position: fixed;
+    height: 400px;
+    width: 400px;
+    top: 20%;
+    left: 73%;
+}

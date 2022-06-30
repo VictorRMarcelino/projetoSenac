@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: auto;
+    background-color: #002b2b;
+}
+
+.bannerUsuario {
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    width: 95vw;
+    height: 70px;
+    background: #005757;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border-bottom: 2px solid black;
+    padding-left: 150px;
+    gap: 90px;
+}
+.nomeUsuario{
+    color: white;
+    font-size: 60px;
+}
+.alterarInformacoes a{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 20%;
+    text-decoration-color: grey;
+}.numpublicacoes{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: calc(37% - 5px);
+}
+.sexoUsuario{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    left: calc(49% + 2px);
+}
+.publicacoes {
+    position: fixed;
+    max-height: 72%;
+    height: 72%;
+    left: calc(50% - 270px);
+    width: 640px;
+    background: #002b2b;
+    border-style: solid;
+    padding-left: 55px;
+    top: 270px;
+    border-radius: 20px 20px 20px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.tituloFormulario{
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.iconesFormulario {
+    margin-top: 23px;
+    font-size: 28px;
+    color: #fff;
+}
+.camposFormulario {
+    position: relative;
+    top: -37px;
+    width: 475px;
+    left: 55px;
+    height: 38px;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: lightgray;
+    font-size: 14px;
+    border-radius: 10px 20px 20px 10px;
+}
+.camposFormulario:focus {
+    background-color: #fff;
+    border-style: solid;
+    border-color: black;
+    font-size: 16px;
+}
+.botaoSalvar input {
+    position: absolute;
+    top: 90%;
+    left: 39%;
+    font-size: 18px;
+    background-color: #4A79B9;
+    color: #fff;
+    width: 150px;
+    height: 32px;
+    font-size: 23px;
+    border: 2px solid #4A79B9;
+}
+.tituloSobreMim{
+    position: fixed;
+    width: 90px;
+    height: 290px;
+    left: 38%;
+    top: 74%;
+    color: white;
+    font-size: 30px;
+}
+.textosobremim {
+    position: fixed;
+    width: 445px;
+    height: 170px;
+    border-style: none;
+    background-color: transparent;
+    font-family: "Times New Roman", Serif;
+    font-size: 18px;
+    overflow-y: auto;
+    resize: none;
+    left: calc(40% + 45px);
+    top: 72%;
+    background-color: white;
+    border-radius: 5px;
+}
+.textosobremim::placeholder{
+    color: black;
+    font-size: 20px;
+}
+.textosobremim:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
